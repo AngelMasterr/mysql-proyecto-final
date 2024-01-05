@@ -10,6 +10,9 @@ SET GLOBAL log_bin_trust_function_creators = 1;
 
 SELECT f_aleatorio(1, 10) AS RESULTADO;
 
-SELECT f_cliente_aleatorio() AS CLIENTE;
+SELECT f_cliente_aleatorio() AS DNI_CLIENTE;
 
-SELECT `f_producto_aleatorio`() AS CLIENTE;
+SELECT `f_producto_aleatorio`() AS PRODUCTO_DESCRIPCION;
+
+SELECT `f_vendedor_aleatorio`() AS VENDEDOR_COMISION;
+

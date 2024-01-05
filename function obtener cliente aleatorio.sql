@@ -12,6 +12,6 @@ BEGIN
     
     SELECT DNI, NOMBRE INTO vDNI, vNOMBRE FROM clientes LIMIT valeatorio, 1;
     
-    SET vResultado = CONCAT(vDNI, ', ', vNOMBRE);
+    SET vResultado = vDNI;
     RETURN vResultado;
 END
